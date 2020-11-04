@@ -8,11 +8,7 @@ const ejs = require("ejs")
 const app = express();
 
 
-aws.config.update({
-    region: "ap-southeast-1",
-    accessKeyId: "AKIAQ3QLWOE2UOPYFIKW",
-    secretAccessKey: "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",
-  });
+
   
 
 const docClient = new aws.DynamoDB.DocumentClient();
